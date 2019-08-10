@@ -1,0 +1,5 @@
+---
+layout: home
+---
+
+{{ site.title }}

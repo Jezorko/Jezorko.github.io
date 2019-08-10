@@ -1,0 +1,13 @@
+title: Jezorko blog
+email: pawelfiu@gmail.com
+description: >-
+  My disorganized everyday thoughts on software engineering.
+baseurl: ""
+url: "https://jezorko.github.io"
+github_username: Jezorko
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
