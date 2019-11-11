@@ -174,7 +174,7 @@ dogs.stream()
 
 Except…
 
-> Take all dogs for which not vegetarian says they are healthy
+> Take all dogs for which: not veterinarian says they are healthy
 
 That does not read well at all.
 
@@ -199,9 +199,9 @@ dogs.stream()
 The two examples above are obviously not flawless.
 
 The first one requires changes in the type safety mechanisms.
- * How can we be sure what is the type of the Method Reference before calling its' method?
+ * How can we be sure what is the type of the Method Reference before calling its method?
  * If it is always the type of method's target Functional Interface, then how would it work in assignment statements?
- * If the type is not arbitrary, how can we know it has the negation method?
+ * If the type is not arbitrary, how can we know it has the negation method? 
 
 The second one forces us to ask: where do we stop?
  * Should we allow multiple static methods to be chained, or just one?
@@ -223,7 +223,7 @@ final class DogValidator {
 }
 {% endhighlight %}
 
-Since this class is `final`, we should use a decorator pattern to extend its' capabilities.
+Since this class is `final`, we should use a decorator pattern to extend its capabilities.
 Let us implement one and add a new `isABadBoy` method:
 
 {% highlight java %}
@@ -280,7 +280,7 @@ final class EvenBetterDogValidator {
 
     final boolean isAGoodBoy(final Dog dog) = dogValidator::isAGoodBoy;
 
-    final boolean isABadBoy(final Dog dog) = this:not:isAGoodBoy;
+    final boolean isABadBoy(final Dog dog) = Predicates:not:isAGoodBoy;
 
 }
 {% endhighlight %}
@@ -295,5 +295,5 @@ I recommend using Method References whenever possible.
 Your code will become cleaner and easier to refactor, at no extra cost.
 Keep in mind though that they have some limitations and unless those get waived in the next Java releases, some workarounds need to be implemented.
 
-Method references are—in my humble opinion—not a complete feature.
+Method references are —in my humble opinion— not a complete feature.
 There are some improvements that could be added to allow wider use of them.
