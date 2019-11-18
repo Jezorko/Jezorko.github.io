@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div><p>
+<img
+src="/assets/about/profile.jpg"
+alt="Photo of Paweł Szymański"
+style="height: 25%; width: 25%; float: left; margin-right: 15px; margin-bottom: 10px;">
+<span></span></p>
+</div>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Not a front-end dev, obviously.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Links:
+ * [GitHub](https://github.com/jezorko)
+ * [StackOverflow](https://stackoverflow.com/users/5922757/jezor)
+ * [LinkedIn](https://www.linkedin.com/in/pawe%C5%82-szyma%C5%84ski-b370b9100/)
