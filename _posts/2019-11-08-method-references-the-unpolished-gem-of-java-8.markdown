@@ -174,7 +174,7 @@ dogs.stream()
 
 Except…
 
-> Take all dogs for which not vegetarian says they are healthy
+> Take all dogs for which not veterinarian says they are healthy
 
 That does not read well at all.
 
@@ -199,7 +199,7 @@ dogs.stream()
 The two examples above are obviously not flawless.
 
 The first one requires changes in the type safety mechanisms.
- * How can we be sure what is the type of the Method Reference before calling its' method?
+ * How can we be sure what is the type of the Method Reference before calling its method?
  * If it is always the type of method's target Functional Interface, then how would it work in assignment statements?
  * If the type is not arbitrary, how can we know it has the negation method?
 
