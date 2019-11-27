@@ -63,7 +63,7 @@ How many new names had to be invented to write only these few lines?
 I counted four: `dog`, `optionalDogHouse`, `dogHouse` and `treats`.
 
 One of these names bothers me in particular.
-Is the `dogHouse` still `optional` after we already checked its' presence?
+Is the `dogHouse` still `optional` after we already checked its presence?
 The type is still `Optional<DogHouse>`, but we already know it cannot be empty!
 
 We can get rid of all these names and confusion by refactoring with Method References:
