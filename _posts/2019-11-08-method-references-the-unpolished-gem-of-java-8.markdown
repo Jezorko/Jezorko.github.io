@@ -28,7 +28,7 @@ My goal is to show the advantages of using them and outline ideas on how they co
 
 For many, method references are just a bit of syntactic sugar sprinkled about in the language.
 Sometimes they will accept their IDE's suggestion and transform a Lambda into one.
-A nice to have addition, at most.
+A nice-to-have addition, at most.
 
 But when you look at them closely, you might see just how beneficial they are.
 
