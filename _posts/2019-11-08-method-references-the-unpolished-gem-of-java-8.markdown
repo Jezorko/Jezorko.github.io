@@ -287,7 +287,19 @@ final class EvenBetterDogValidator {
 
 Even the method parameter names could be made optional for the same benefits I described before: fewer things to name.
 
-This feature seems much easier to implement in the Java language, although it would put some strain on IDEs automatic code completion capabilities.
+A similar feature is already available in Kotlin, called [single-expression functions](https://kotlinlang.org/docs/reference/functions.html#single-expression-functions).
+Although they cannot accept method references, these functions can significantly reduce the amount of boilerplate.
+This is how our decorator class could look like if it were written in Kotlin: 
+
+{% highlight kotlin %}
+class EvenBetterDogValidator(private val dogValidator: DogValidator) {
+
+    fun isAGoodBoy(dog: Dog) = dogValidator.isAGoodBoy(dog);
+
+    fun isABadBoy(dog: Dog) = !isAGoodBoy(dog);
+
+}
+{% endhighlight %}
 
 ## Summary
 
