@@ -18,7 +18,7 @@ Therefore, we should look for ways to make the code that uses them as clean and 
 
 [Method References](https://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.13)—also introduced in Java 8—provide a different syntax for Lambda expressions.
 They may be used with any type of method: instance, static or a constructor.
-Although often overlooked, I believe they have a power to greatly improve our code.
+Although often overlooked, I believe they have the power to greatly improve our code.
 
 I will not talk about how to use Method References here.
 This has been explained in great detail by others already, for example in [this tutorial from Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html).
