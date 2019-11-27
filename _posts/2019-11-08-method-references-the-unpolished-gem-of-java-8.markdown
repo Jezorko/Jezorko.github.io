@@ -9,7 +9,7 @@ If you were to pick your favorite year from the entire history of mankind, which
 Most people would probably say 1932, when [the Great Emu War](https://www.nationalgeographic.com.au/history/the-great-australian-emu-war.aspx) was fought in Australia.
 This one is definitely in my top 10; however it falls behind 2014 - the year when Java 8 was released.
 
-Among other things, this glorious language update added some functional programming capabilities to the language.
+Among other things, this glorious update added some functional programming capabilities to the language.
 Whether or not you consider this a good idea, [Lambda expressions](https://www.jcp.org/en/jsr/detail?id=335) are now an unavoidable reality of (almost) any Java project.
 
 Therefore, we should look for ways to make the code that uses them as clean and concise as possible.
