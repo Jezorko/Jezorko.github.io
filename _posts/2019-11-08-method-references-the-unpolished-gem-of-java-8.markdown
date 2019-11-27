@@ -26,7 +26,7 @@ My goal is to show the advantages of using them and outline ideas on how they co
 
 ## Why Method References are great
 
-For many, method references are just a bit of synthetic sugar sprinkled about in the language.
+For many, method references are just a bit of syntactic sugar sprinkled about in the language.
 Sometimes they will accept their IDE's suggestion and transform a Lambda into one.
 A nice to have addition, at most.
 
