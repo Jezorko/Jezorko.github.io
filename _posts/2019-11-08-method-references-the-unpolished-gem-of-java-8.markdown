@@ -206,7 +206,7 @@ The first one requires changes in the type safety mechanisms.
 The second one forces us to ask: where do we stop?
  * Should we allow multiple static methods to be chained, or just one?
  * If they can be chained, then the feature could be potentially misused to produce unreadable code.
- * If only a one can be used, then we are ridding ourselves of one limitation only to add another.
+ * If only one can be used, then we are ridding ourselves of one limitation only to add another.
 
 ### Assigning Method References to methods
 
