@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Method References - the unpolished gem of Java 8"
-date:   2019-11-28 17:45:00 +0100
+date:   2019-11-08 17:16:00 +0100
 categories: Java, Language
 ---
 
