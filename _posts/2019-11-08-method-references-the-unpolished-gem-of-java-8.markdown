@@ -100,7 +100,7 @@ As a result, the tool does not need to bother us about it and the code is just a
 
 ## How Method References could be even better
 
-As useful of a feature as Method References are, it surprises me that they are so limited.
+As useful as Method References are, it surprises me that they are so limited.
 It might be because they were not a priority for this release.
 
 Below, I present my two ideas on how they could be improved.
