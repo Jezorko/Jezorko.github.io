@@ -113,7 +113,7 @@ In these cases, we can take one of a few approaches:
 
  1. create a decorator around the object and add missing methods
  2. write a new method that takes the object as an argument
- 3. put the code in-line
+ 3. in-line the code
  4. extend the offending class
 
 I listed them in order of my own preference.
