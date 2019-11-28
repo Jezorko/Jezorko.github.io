@@ -109,7 +109,7 @@ Of course, as for any language feature, there are many corner cases that might m
 ### Calling functional interface's methods from the method reference
 
 Sometimes the object's method alone are not enough to implement the logic.
-In these cases, we can take one of the few approaches:
+In these cases, we can take one of a few approaches:
 
  1. create a decorator around the object and add missing methods
  2. write a new method that takes the object as an argument
