@@ -117,7 +117,7 @@ In these cases, we can take one of a few approaches:
  4. extend the offending class
 
 I listed them in order of my own preference.
-Each of these has their own advantages and disadvantages.
+I listed them in order of my own preference, but each of these has their own advantages and disadvantages.
 
 In many cases, the Functional Interface of our Lambda already provides default methods with necessary logic.
 For example, consider a rather common operation: negating a `Predicate`.
