@@ -20,8 +20,8 @@ Therefore, we should look for ways to make the code that uses them as clean and 
 They may be used with any type of method: instance, static or a constructor.
 Although often overlooked, I believe they have the power to greatly improve our code.
 
-I will not talk about how to use Method References here.
-This has been explained in great detail by others already, for example in [this tutorial from Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html).
+I will not talk about how to use Method References here, since this has been explained in great detail by others already.
+[This tutorial from Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html) is a great example.
 My goal is to show the advantages of using them and outline ideas on how they could be improved in the future Java releases.
 
 ## Why Method References are great
