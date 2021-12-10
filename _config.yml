@@ -11,3 +11,5 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+exclude: ["code_examples"]
