@@ -190,7 +190,7 @@ It is better to keep it clean so no accidental dependencies are introduced betwe
 Also, keep in mind that the entire container, along with the DynamoDB instance, exists only for the duration of tests and will be discarded afterwards.
 Consecutive test runs should not depend on each other!
 
-Complete project example can be found [here](code_examples/testcontainers-blog-example).
+Complete project example can be found [here](https://github.com/Jezorko/Jezorko.github.io/tree/master/code_examples/testcontainers-blog-example).
 
 ## Troubleshooting
 
